@@ -30,15 +30,38 @@ console.log(resultado)
 //Exercicío de Funções
 
 //Exercicío 1
-//a) Vai imprimir essas 2 minhaFuncao multiplicadas por 5
-//b) Ele vai cagar pro 2 e vai multiplicar direto para o 10
+//a) Será impresso o 5 vezes o 2 e em seguida com o 10, separados
+//b) Ele vai ignorar a função e não vai dar nada,tipo,nada mesmo kkkk
 
 //Exercicío 2
-let textoDoUsuario = prompt("Insira um texto");
+//a) Essa função vai constatar a palavra cenoura como obrigatora na frase
+//b) i. true
+//   ii. true
+//  iii. true
 
-const outraFuncao = function(texto) {
-	return texto.toLowerCase(textoDoUsuario).includes("cenoura")
+//Exercicíos de Escrita de Código
+//1.a)
+/*function minhafuncao(variavel) {
+const nomeUsu = prompt("Qual o seu nome?")
+const idadeUsu = prompt("Qual a sua idade?")
+const cidadeUsu = prompt("Qual a sua cidade?")
+const ocupacaoUsu = prompt("Qual a sua ocupação atual?")
+console.log(`Eu sou ${nomeUsu}, tenho ${idadeUsu}, moro em ${cidadeUsu} e sou um ${ocupacaoUsu}`)
 }
+minhafuncao()
+"Eu sou Akame, tenho 15, moro em São Leopoldo e sou um Estudante"
+*/
+//1.b)
+/*function minhafuncao2(nome, idadeUsu, cidadeUsu, ocupacaoUsu) {
+const fraseUsu = (`Eu sou ${nome}, tenho ${idadeUsu}, moro em ${cidadeUsu} e sou ${ocupacaoUsu}`)
+return fraseUsu
+}
+    const resultado = minhafuncao2("Davi", "15","São Leopoldo", "estudante" )
+    console.log(resultado)
+*/
 
-const resposta = outraFuncao(textoDoUsuario)
-console.log(resposta)
+
+
+
+
+    
